@@ -10,6 +10,26 @@ Analysis of **tweets from candidates** in the 2016 and 2020 US presidential elec
 > \- *J. Biden* tweets from 2020.  
 > \- *D. Trump* tweets from 2020.
 
-*This work is carried out as part of a research project at **ESPOL, Catholic University of Lille***.
+```
+usa_2012_2016_data_analysing
+├─ Makefile
+└─ src
+   ├─ __init__.py
+   ├─ config
+   │  └─ format_config.json
+   ├─ data
+   │  └─ original
+   │     ├─ biden_tweets.csv
+   │     ├─ clinton_trump_2016_tweets.csv
+   │     └─ trump_tweets.csv
+   ├─ main.py
+   └─ modules
+      ├─ __init__.py
+      ├─ format_csv_datasets.py
+      └─ utils.py
+
+```
+
+*This work is carried out as part of a research project at **ESPOL, Université Catholique de Lille***.
 
 ![Aperçu](https://zupimages.net/up/25/17/9zzo.jpg)
