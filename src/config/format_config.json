@@ -1,0 +1,126 @@
+[
+  {
+    "csv_file_path": "src/data/original/biden_tweets.csv",
+    "json_file_path": "src/data/formated/2020_biden.json",
+    "date_row": "created_at",
+    "date_format": "%a %b %d %H:%M:%S %z %Y",
+    "start_date": "2020-05-02T00:00:00+00:00",
+    "end_date": "2020-11-02T23:59:59+00:00",
+    "rowsToInclude": ["content", "date", "retweetCount", "id", "retweetedTweet"],
+    "rows": [
+      {
+        "name": "id",
+        "rename": "id"
+      }, {
+        "name": "date",
+        "rename": "date"
+      }, {
+        "name": "content",
+        "rename": "content"
+      }, {
+        "name": "retweetCount",
+        "rename": "retweetCount"
+      }
+    ],
+    "filters": [
+      {
+        "row": "retweetedTweet",
+        "mustBe": ""
+      }
+    ]
+  },
+
+  {
+    "csv_file_path": "src/data/original/trump_tweets.csv",
+    "json_file_path": "src/data/formated/2016_trump.json",
+    "date_row": "date",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "start_date": "2016-05-07T00:00:00+00:00",
+    "end_date": "2016-11-07T23:59:59+00:00",
+    "rows": [
+      {
+        "name": "id",
+        "rename": "id"
+      }, {
+        "name": "date",
+        "rename": "date"
+      }, {
+        "name": "text",
+        "rename": "content"
+      }, {
+        "name": "retweets",
+        "rename": "retweetCount"
+      }
+    ],
+    "filters": [
+      {
+        "row": "isRetweet",
+        "mustBe": "f"
+      }
+    ]
+  },
+
+  {
+    "csv_file_path": "src/data/original/trump_tweets.csv",
+    "json_file_path": "src/data/formated/2020_trump.json",
+    "date_row": "date",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "start_date": "2020-05-02T00:00:00+00:00",
+    "end_date": "2020-11-02T23:59:59+00:00",
+    "rows": [
+      {
+        "name": "id",
+        "rename": "id"
+      }, {
+        "name": "date",
+        "rename": "date"
+      }, {
+        "name": "text",
+        "rename": "content"
+      }, {
+        "name": "retweets",
+        "rename": "retweetCount"
+      }
+    ],
+    "filters": [
+      {
+        "row": "isRetweet",
+        "mustBe": "f"
+      }
+    ]
+  },
+
+  {
+    "csv_file_path": "src/data/original/clinton_trump_2016_tweets.csv",
+    "json_file_path": "src/data/formated/2016_clinton.json",
+    "date_row": "time",
+    "date_format": "%Y-%m-%dT%H:%M:%S",
+    "start_date": "2016-05-07T00:00:00+00:00",
+    "end_date": "2016-11-07T23:59:59+00:00",
+    "rowsToInclude": ["id", "text", "time", "retweet_count", "is_retweet"],
+    "rows": [
+      {
+        "name": "id",
+        "rename": "id"
+      }, {
+        "name": "time",
+        "rename": "date"
+      }, {
+        "name": "text",
+        "rename": "content"
+      }, {
+        "name": "retweet_count",
+        "rename": "retweetCount"
+      }
+    ],
+    "filters": [
+      { 
+        "row": "handle", 
+        "mustBe": "HillaryClinton" 
+      }, {
+        "row": "is_retweet",
+        "mustBe": "False"
+      }
+    ]
+  }
+]
