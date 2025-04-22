@@ -5,19 +5,6 @@ import json
 from datetime import datetime, timezone
 from .utils import clean_string, parse_iso8601
 
-def normalize_to_iso8601(date_str, date_format):
-  """
-  Standardise date en format UTC
-  """
-
-  try:
-    dt = datetime.strptime(date_str, date_format)
-    dt = dt.replace(tzinfo=timezone.utc)
-    return dt.isoformat().replace("+00:00", "Z")
-  except Exception as e:
-    print(f"[red]Error during normalise_to_iso8601 '{date_str}' : {e}[/red]")
-    return None
-
 def format_tweets_csv_to_json(formatMetas):
   """
   Formate les data CSV selon les paramètres fournis dans le fichier de configuration (formatMetas)
@@ -88,4 +75,4 @@ def format_tweets_csv_to_json(formatMetas):
     with open(json_file_path, mode='w', encoding='utf-8') as json_file:
       json.dump(filtered_data, json_file, indent=2, ensure_ascii=False)
 
-    print(f"💾 [green]{json_file_path}[/green]")
+    print(f"💾 [green]{json_file_path}[/green] [bold cyan][{len(filtered_data)} tweets][/bold cyan]")

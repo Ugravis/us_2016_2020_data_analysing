@@ -1,0 +1,810 @@
+{
+  "2020_trump.json": {
+    "people": {
+      "count": 341,
+      "retweet_index": 0.7064
+    },
+    "vote": {
+      "count": 285,
+      "retweet_index": 0.6853
+    },
+    "biden": {
+      "count": 240,
+      "retweet_index": 0.8155
+    },
+    "news": {
+      "count": 223,
+      "retweet_index": 0.7651
+    },
+    "fake": {
+      "count": 222,
+      "retweet_index": 0.8177
+    },
+    "total": {
+      "count": 210,
+      "retweet_index": 0.1299
+    },
+    "country": {
+      "count": 194,
+      "retweet_index": 0.8494
+    },
+    "complete": {
+      "count": 189,
+      "retweet_index": 0.0457
+    },
+    "endorsement": {
+      "count": 185,
+      "retweet_index": 0.0276
+    },
+    "trump": {
+      "count": 173,
+      "retweet_index": 0.6321
+    },
+    "president": {
+      "count": 171,
+      "retweet_index": 0.8738
+    },
+    "america": {
+      "count": 168,
+      "retweet_index": 0.8278
+    },
+    "left": {
+      "count": 158,
+      "retweet_index": 0.8357
+    },
+    "amendment": {
+      "count": 151,
+      "retweet_index": 0.2057
+    },
+    "joe_biden": {
+      "count": 142,
+      "retweet_index": 0.8678
+    },
+    "china": {
+      "count": 140,
+      "retweet_index": 0.9197
+    },
+    "job": {
+      "count": 140,
+      "retweet_index": 0.5445
+    },
+    "election": {
+      "count": 139,
+      "retweet_index": 0.8246
+    },
+    "american": {
+      "count": 136,
+      "retweet_index": 0.7489
+    },
+    "law": {
+      "count": 135,
+      "retweet_index": 0.6544
+    },
+    "democrats": {
+      "count": 133,
+      "retweet_index": 0.9317
+    },
+    "win": {
+      "count": 129,
+      "retweet_index": 0.6458
+    },
+    "jobs": {
+      "count": 123,
+      "retweet_index": 0.4886
+    },
+    "radical": {
+      "count": 123,
+      "retweet_index": 0.9223
+    },
+    "sleepy_joe": {
+      "count": 121,
+      "retweet_index": 0.9283
+    },
+    "military": {
+      "count": 120,
+      "retweet_index": 0.2804
+    },
+    "history": {
+      "count": 107,
+      "retweet_index": 0.9929
+    },
+    "media": {
+      "count": 107,
+      "retweet_index": 1.0
+    },
+    "pennsylvania": {
+      "count": 106,
+      "retweet_index": 0.4237
+    },
+    "time": {
+      "count": 98,
+      "retweet_index": 0.81
+    },
+    "bad": {
+      "count": 96,
+      "retweet_index": 0.7637
+    },
+    "strong": {
+      "count": 95,
+      "retweet_index": 0.1856
+    },
+    "federal": {
+      "count": 90,
+      "retweet_index": 0.6036
+    },
+    "vets": {
+      "count": 89,
+      "retweet_index": 0.0979
+    },
+    "democrat": {
+      "count": 88,
+      "retweet_index": 0.9857
+    },
+    "congressman": {
+      "count": 86,
+      "retweet_index": 0.0
+    },
+    "police": {
+      "count": 85,
+      "retweet_index": 0.951
+    },
+    "crime": {
+      "count": 84,
+      "retweet_index": 0.9054
+    },
+    "national": {
+      "count": 84,
+      "retweet_index": 0.8791
+    },
+    "corrupt": {
+      "count": 83,
+      "retweet_index": 0.9201
+    },
+    "republican": {
+      "count": 80,
+      "retweet_index": 0.6628
+    },
+    "ballots": {
+      "count": 77,
+      "retweet_index": 0.8959
+    },
+    "joe": {
+      "count": 76,
+      "retweet_index": 0.8328
+    },
+    "incredible": {
+      "count": 76,
+      "retweet_index": 0.2662
+    },
+    "washington": {
+      "count": 74,
+      "retweet_index": 0.5269
+    },
+    "taxes": {
+      "count": 74,
+      "retweet_index": 0.3691
+    },
+    "court": {
+      "count": 70,
+      "retweet_index": 0.8298
+    },
+    "obama": {
+      "count": 69,
+      "retweet_index": 0.9906
+    },
+    "usa": {
+      "count": 69,
+      "retweet_index": 0.8933
+    },
+    "florida": {
+      "count": 68,
+      "retweet_index": 0.4218
+    }
+  },
+  "2020_biden.json": {
+    "president": {
+      "count": 533,
+      "retweet_index": 0.9616
+    },
+    "donald_trump": {
+      "count": 355,
+      "retweet_index": 1.0
+    },
+    "vote": {
+      "count": 219,
+      "retweet_index": 0.4128
+    },
+    "nation": {
+      "count": 209,
+      "retweet_index": 0.6545
+    },
+    "day": {
+      "count": 197,
+      "retweet_index": 0.5778
+    },
+    "american": {
+      "count": 194,
+      "retweet_index": 0.6258
+    },
+    "america": {
+      "count": 187,
+      "retweet_index": 0.6956
+    },
+    "people": {
+      "count": 179,
+      "retweet_index": 0.645
+    },
+    "country": {
+      "count": 175,
+      "retweet_index": 0.5857
+    },
+    "trump": {
+      "count": 175,
+      "retweet_index": 0.7489
+    },
+    "americans": {
+      "count": 144,
+      "retweet_index": 0.5027
+    },
+    "time": {
+      "count": 136,
+      "retweet_index": 0.5817
+    },
+    "covid": {
+      "count": 120,
+      "retweet_index": 0.7394
+    },
+    "crisis": {
+      "count": 117,
+      "retweet_index": 0.4538
+    },
+    "folks": {
+      "count": 117,
+      "retweet_index": 0.2844
+    },
+    "care": {
+      "count": 115,
+      "retweet_index": 0.4872
+    },
+    "election": {
+      "count": 107,
+      "retweet_index": 0.245
+    },
+    "health": {
+      "count": 103,
+      "retweet_index": 0.6023
+    },
+    "build": {
+      "count": 98,
+      "retweet_index": 0.3126
+    },
+    "tune": {
+      "count": 94,
+      "retweet_index": 0.0
+    },
+    "future": {
+      "count": 88,
+      "retweet_index": 0.359
+    },
+    "white": {
+      "count": 81,
+      "retweet_index": 0.7986
+    },
+    "plan": {
+      "count": 78,
+      "retweet_index": 0.2888
+    },
+    "economy": {
+      "count": 73,
+      "retweet_index": 0.4777
+    },
+    "chip": {
+      "count": 73,
+      "retweet_index": 0.0284
+    },
+    "promise": {
+      "count": 72,
+      "retweet_index": 0.7276
+    },
+    "days": {
+      "count": 72,
+      "retweet_index": 0.5205
+    },
+    "campaign": {
+      "count": 68,
+      "retweet_index": 0.496
+    },
+    "administration": {
+      "count": 66,
+      "retweet_index": 0.5573
+    },
+    "head": {
+      "count": 64,
+      "retweet_index": 0.1349
+    },
+    "ballot": {
+      "count": 64,
+      "retweet_index": 0.261
+    },
+    "jobs": {
+      "count": 63,
+      "retweet_index": 0.3629
+    },
+    "change": {
+      "count": 63,
+      "retweet_index": 0.431
+    },
+    "house": {
+      "count": 61,
+      "retweet_index": 0.6936
+    },
+    "violence": {
+      "count": 61,
+      "retweet_index": 0.8406
+    },
+    "truth": {
+      "count": 60,
+      "retweet_index": 0.8813
+    },
+    "virus": {
+      "count": 60,
+      "retweet_index": 0.8257
+    },
+    "justice": {
+      "count": 60,
+      "retweet_index": 0.6906
+    },
+    "fight": {
+      "count": 60,
+      "retweet_index": 0.5409
+    },
+    "moment": {
+      "count": 59,
+      "retweet_index": 0.6852
+    },
+    "pandemic": {
+      "count": 59,
+      "retweet_index": 0.6717
+    },
+    "history": {
+      "count": 58,
+      "retweet_index": 0.7161
+    },
+    "life": {
+      "count": 58,
+      "retweet_index": 0.8132
+    },
+    "hard": {
+      "count": 58,
+      "retweet_index": 0.5912
+    },
+    "leadership": {
+      "count": 58,
+      "retweet_index": 0.8207
+    },
+    "lives": {
+      "count": 58,
+      "retweet_index": 0.7532
+    },
+    "job": {
+      "count": 56,
+      "retweet_index": 0.7573
+    },
+    "safe": {
+      "count": 55,
+      "retweet_index": 0.7181
+    },
+    "ensure": {
+      "count": 54,
+      "retweet_index": 0.3428
+    },
+    "family": {
+      "count": 54,
+      "retweet_index": 0.5973
+    }
+  },
+  "2016_trump.json": {
+    "crooked_hillary": {
+      "count": 200,
+      "retweet_index": 0.7335
+    },
+    "clinton": {
+      "count": 183,
+      "retweet_index": 0.6974
+    },
+    "trump": {
+      "count": 158,
+      "retweet_index": 0.335
+    },
+    "america": {
+      "count": 152,
+      "retweet_index": 0.5225
+    },
+    "people": {
+      "count": 142,
+      "retweet_index": 0.7853
+    },
+    "hillary": {
+      "count": 115,
+      "retweet_index": 0.8873
+    },
+    "president": {
+      "count": 95,
+      "retweet_index": 0.6943
+    },
+    "hillary_clinton": {
+      "count": 82,
+      "retweet_index": 0.8286
+    },
+    "bad": {
+      "count": 80,
+      "retweet_index": 0.486
+    },
+    "media": {
+      "count": 78,
+      "retweet_index": 0.9698
+    },
+    "vote": {
+      "count": 76,
+      "retweet_index": 0.678
+    },
+    "country": {
+      "count": 74,
+      "retweet_index": 0.7204
+    },
+    "obama": {
+      "count": 74,
+      "retweet_index": 0.88
+    },
+    "time": {
+      "count": 66,
+      "retweet_index": 0.7675
+    },
+    "tonight": {
+      "count": 64,
+      "retweet_index": 0.1699
+    },
+    "tomorrow": {
+      "count": 58,
+      "retweet_index": 0.4268
+    },
+    "campaign": {
+      "count": 58,
+      "retweet_index": 0.5357
+    },
+    "ohio": {
+      "count": 58,
+      "retweet_index": 0.4203
+    },
+    "watch": {
+      "count": 57,
+      "retweet_index": 0.6218
+    },
+    "american": {
+      "count": 57,
+      "retweet_index": 0.5972
+    },
+    "support": {
+      "count": 56,
+      "retweet_index": 0.4564
+    },
+    "florida": {
+      "count": 56,
+      "retweet_index": 0.4916
+    },
+    "jobs": {
+      "count": 56,
+      "retweet_index": 0.5473
+    },
+    "speech": {
+      "count": 52,
+      "retweet_index": 0.587
+    },
+    "poll": {
+      "count": 48,
+      "retweet_index": 0.6562
+    },
+    "job": {
+      "count": 46,
+      "retweet_index": 0.3342
+    },
+    "enjoy": {
+      "count": 43,
+      "retweet_index": 0.039
+    },
+    "women": {
+      "count": 41,
+      "retweet_index": 0.4871
+    },
+    "dishonest": {
+      "count": 40,
+      "retweet_index": 0.822
+    },
+    "movement": {
+      "count": 39,
+      "retweet_index": 0.5794
+    },
+    "night": {
+      "count": 39,
+      "retweet_index": 0.5004
+    },
+    "rally": {
+      "count": 39,
+      "retweet_index": 0.4193
+    },
+    "rigged": {
+      "count": 38,
+      "retweet_index": 0.9111
+    },
+    "day": {
+      "count": 36,
+      "retweet_index": 0.4948
+    },
+    "win": {
+      "count": 36,
+      "retweet_index": 0.7118
+    },
+    "totally": {
+      "count": 36,
+      "retweet_index": 0.6648
+    },
+    "pennsylvania": {
+      "count": 35,
+      "retweet_index": 0.5432
+    },
+    "amazing": {
+      "count": 35,
+      "retweet_index": 0.4422
+    },
+    "safe": {
+      "count": 35,
+      "retweet_index": 0.6568
+    },
+    "supporters": {
+      "count": 35,
+      "retweet_index": 0.6808
+    },
+    "wow": {
+      "count": 35,
+      "retweet_index": 1.0
+    },
+    "isis": {
+      "count": 35,
+      "retweet_index": 0.788
+    },
+    "carolina": {
+      "count": 34,
+      "retweet_index": 0.5319
+    },
+    "north": {
+      "count": 33,
+      "retweet_index": 0.5409
+    },
+    "hard": {
+      "count": 33,
+      "retweet_index": 0.5277
+    },
+    "failing": {
+      "count": 33,
+      "retweet_index": 0.3787
+    },
+    "bernie": {
+      "count": 32,
+      "retweet_index": 0.5107
+    },
+    "interviewed": {
+      "count": 31,
+      "retweet_index": 0.0
+    },
+    "republican": {
+      "count": 31,
+      "retweet_index": 0.6852
+    },
+    "change": {
+      "count": 30,
+      "retweet_index": 0.6464
+    }
+  },
+  "2016_clinton.json": {
+    "hillary": {
+      "count": 540,
+      "retweet_index": 0.3105
+    },
+    "trump": {
+      "count": 406,
+      "retweet_index": 0.5528
+    },
+    "donald_trump": {
+      "count": 312,
+      "retweet_index": 0.7321
+    },
+    "president": {
+      "count": 220,
+      "retweet_index": 0.758
+    },
+    "america": {
+      "count": 182,
+      "retweet_index": 0.4539
+    },
+    "people": {
+      "count": 161,
+      "retweet_index": 0.4153
+    },
+    "families": {
+      "count": 113,
+      "retweet_index": 0.2816
+    },
+    "americans": {
+      "count": 110,
+      "retweet_index": 0.6071
+    },
+    "country": {
+      "count": 106,
+      "retweet_index": 0.3707
+    },
+    "women": {
+      "count": 93,
+      "retweet_index": 0.8411
+    },
+    "american": {
+      "count": 85,
+      "retweet_index": 0.3309
+    },
+    "time": {
+      "count": 73,
+      "retweet_index": 0.459
+    },
+    "campaign": {
+      "count": 64,
+      "retweet_index": 0.4468
+    },
+    "hillary_clinton": {
+      "count": 62,
+      "retweet_index": 0.3814
+    },
+    "vote": {
+      "count": 61,
+      "retweet_index": 0.4865
+    },
+    "plan": {
+      "count": 61,
+      "retweet_index": 0.281
+    },
+    "economy": {
+      "count": 60,
+      "retweet_index": 0.2665
+    },
+    "watch": {
+      "count": 59,
+      "retweet_index": 0.0849
+    },
+    "live": {
+      "count": 58,
+      "retweet_index": 0.0
+    },
+    "tax": {
+      "count": 57,
+      "retweet_index": 0.6211
+    },
+    "day": {
+      "count": 51,
+      "retweet_index": 0.3724
+    },
+    "pay": {
+      "count": 48,
+      "retweet_index": 0.281
+    },
+    "business": {
+      "count": 48,
+      "retweet_index": 0.6211
+    },
+    "election": {
+      "count": 47,
+      "retweet_index": 0.3235
+    },
+    "gun": {
+      "count": 47,
+      "retweet_index": 0.663
+    },
+    "care": {
+      "count": 46,
+      "retweet_index": 0.1582
+    },
+    "violence": {
+      "count": 43,
+      "retweet_index": 0.5702
+    },
+    "life": {
+      "count": 42,
+      "retweet_index": 0.6126
+    },
+    "love": {
+      "count": 42,
+      "retweet_index": 0.5345
+    },
+    "family": {
+      "count": 41,
+      "retweet_index": 0.4237
+    },
+    "united": {
+      "count": 41,
+      "retweet_index": 0.6737
+    },
+    "woman": {
+      "count": 40,
+      "retweet_index": 0.8624
+    },
+    "millions": {
+      "count": 39,
+      "retweet_index": 0.4015
+    },
+    "stronger": {
+      "count": 39,
+      "retweet_index": 0.4365
+    },
+    "lgbt": {
+      "count": 39,
+      "retweet_index": 1.0
+    },
+    "chief": {
+      "count": 38,
+      "retweet_index": 0.4511
+    },
+    "debt": {
+      "count": 38,
+      "retweet_index": 0.2607
+    },
+    "stand": {
+      "count": 37,
+      "retweet_index": 0.3681
+    },
+    "real": {
+      "count": 37,
+      "retweet_index": 0.6802
+    },
+    "build": {
+      "count": 37,
+      "retweet_index": 0.4175
+    },
+    "fight": {
+      "count": 36,
+      "retweet_index": 0.2295
+    },
+    "commander": {
+      "count": 35,
+      "retweet_index": 0.4062
+    },
+    "win": {
+      "count": 35,
+      "retweet_index": 0.6208
+    },
+    "job": {
+      "count": 35,
+      "retweet_index": 0.4339
+    },
+    "wrong": {
+      "count": 35,
+      "retweet_index": 0.3981
+    },
+    "kids": {
+      "count": 35,
+      "retweet_index": 0.5407
+    },
+    "jobs": {
+      "count": 34,
+      "retweet_index": 0.2751
+    },
+    "history": {
+      "count": 34,
+      "retweet_index": 0.8222
+    },
+    "rights": {
+      "count": 34,
+      "retweet_index": 0.5329
+    },
+    "hate": {
+      "count": 34,
+      "retweet_index": 0.4283
+    }
+  }
+}
