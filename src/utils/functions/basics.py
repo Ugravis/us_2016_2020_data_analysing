@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
-from modules.stopwords_en import STOP_WORDS
-from modules.names_mapping import NAMES_MAPPING
+from utils.resources.stopwords_en import STOP_WORDS
+from utils.resources.names_mapping import NAMES_MAPPING
 import re
 import html
 

@@ -1,7 +1,7 @@
 [
   {
-    "csv_file_path": "src/data/original/biden_tweets.csv",
-    "json_file_path": "src/data/formated/2020_biden.json",
+    "csv_file_path": "src/dataset/original/biden_tweets.csv",
+    "json_file_path": "src/dataset/formated/2020_biden.json",
     "date_row": "created_at",
     "date_format": "%a %b %d %H:%M:%S %z %Y",
     "start_date": "2020-05-02T00:00:00+00:00",
@@ -31,8 +31,8 @@
   },
 
   {
-    "csv_file_path": "src/data/original/trump_tweets.csv",
-    "json_file_path": "src/data/formated/2016_trump.json",
+    "csv_file_path": "src/dataset/original/trump_tweets.csv",
+    "json_file_path": "src/dataset/formated/2016_trump.json",
     "date_row": "date",
     "date_format": "%Y-%m-%d %H:%M:%S",
     "start_date": "2016-05-07T00:00:00+00:00",
@@ -61,8 +61,8 @@
   },
 
   {
-    "csv_file_path": "src/data/original/trump_tweets.csv",
-    "json_file_path": "src/data/formated/2020_trump.json",
+    "csv_file_path": "src/dataset/original/trump_tweets.csv",
+    "json_file_path": "src/dataset/formated/2020_trump.json",
     "date_row": "date",
     "date_format": "%Y-%m-%d %H:%M:%S",
     "start_date": "2020-05-02T00:00:00+00:00",
@@ -91,8 +91,8 @@
   },
 
   {
-    "csv_file_path": "src/data/original/clinton_trump_2016_tweets.csv",
-    "json_file_path": "src/data/formated/2016_clinton.json",
+    "csv_file_path": "src/dataset/original/clinton_trump_2016_tweets.csv",
+    "json_file_path": "src/dataset/formated/2016_clinton.json",
     "date_row": "time",
     "date_format": "%Y-%m-%dT%H:%M:%S",
     "start_date": "2016-05-07T00:00:00+00:00",

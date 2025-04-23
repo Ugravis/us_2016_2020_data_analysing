@@ -3,12 +3,14 @@ from pathlib import Path
 import csv
 import json
 from datetime import datetime, timezone
-from .utils import clean_string, parse_iso8601
+from utils.functions.basics import clean_string, parse_iso8601
 
 def format_tweets_csv_to_json(formatMetas):
   """
   Formate les data CSV selon les paramètres fournis dans le fichier de configuration (formatMetas)
   """
+
+  print("[bold underline green]Modules: format csv datasets[/bold underline green]")
 
   for formatMeta in formatMetas:
     filtered_data = []
@@ -75,4 +77,4 @@ def format_tweets_csv_to_json(formatMetas):
     with open(json_file_path, mode='w', encoding='utf-8') as json_file:
       json.dump(filtered_data, json_file, indent=2, ensure_ascii=False)
 
-    print(f"💾 [green]{json_file_path}[/green] [bold cyan][{len(filtered_data)} tweets][/bold cyan]")
+    print(f"📂 [green]{json_file_path}[/green] [bold cyan][{len(filtered_data)} tweets][/bold cyan]")

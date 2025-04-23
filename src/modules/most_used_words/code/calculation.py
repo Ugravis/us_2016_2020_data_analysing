@@ -1,25 +1,26 @@
 import json
 import os
 from rich import print
-from .utils import tokenize_text
+from utils.functions.basics import tokenize_text
 from collections import Counter, defaultdict
 
-def mostUsedWords():
+def most_used_words_calculation():
   """
   Retourne les mots les plus utilisés dans les tweets et ainsi qu'un retweet-index pour chacun des mots.
-  Traite tous les fichiers JSON dans le répertoire src/data/formated.
+  Traite tous les fichiers JSON dans le répertoire src/dataset/formated.
 
   Returns:
       dict: Les mots les plus fréquents de chaque fichier avec leur fréquence et index de retweet normalisé.
   """
   
-  input_dir = 'src/data/formated'
-  output_file = 'src/data/results/most_used_words.json'
+  input_dir = 'src/dataset/formated'
+  output_dir = 'src/modules/most_used_words/results/'
   result = {}
 
   for filename in os.listdir(input_dir):
     if filename.endswith('.json'):
       file_path = os.path.join(input_dir, filename)
+      file_name_without_extension = filename.replace('.json', '')
       
       with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -48,7 +49,7 @@ def mostUsedWords():
       # Top des mots
 
       words_counts = Counter(all_words)
-      top_words = words_counts.most_common(50)
+      top_words = words_counts.most_common(15)
 
       # Calcul du ratio des retweets par tweet
 
@@ -82,10 +83,11 @@ def mostUsedWords():
         if tweet_count_with_word[word] > 0
       }
 
-  # Écriture du résultat en json
+    # Écriture du résultat en json
 
-  with open(output_file, 'w', encoding='utf-8') as out_file:
-    json.dump(result, out_file, indent=2, ensure_ascii=False)
-    print(f"📈 [green]{output_file}[/green]")
+    output_file = os.path.join(output_dir, f"{file_name_without_extension}_most_used_words.json")
+    with open(output_file, 'w', encoding='utf-8') as out_file:
+      json.dump(result[filename], out_file, indent=2, ensure_ascii=False)
+      print(f"💾 [green]{output_file}[/green]")
 
   return result

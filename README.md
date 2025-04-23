@@ -13,20 +13,41 @@ Analysis of **tweets from candidates** in the 2016 and 2020 US presidential elec
 ```
 usa_2012_2016_data_analysing
 ├─ Makefile
+├─ __init__.py
+├─ ideas.md
 └─ src
    ├─ __init__.py
    ├─ config
    │  └─ format_config.json
-   ├─ data
+   ├─ dataset
    │  └─ original
    │     ├─ biden_tweets.csv
    │     ├─ clinton_trump_2016_tweets.csv
    │     └─ trump_tweets.csv
    ├─ main.py
-   └─ modules
+   ├─ modules
+   │  ├─ __init__.py
+   │  ├─ format_csv_datasets
+   │  │  ├─ __init__.py
+   │  │  └─ format_csv_datasets.py
+   │  └─ most_used_words
+   │     ├─ __init__.py
+   │     ├─ charts
+   │     ├─ most_used_words.py
+   │     ├─ operations
+   │     │  ├─ __init__.py
+   │     │  ├─ calculate.py
+   │     │  └─ draw_charts.py
+   │     └─ results
+   └─ utils
       ├─ __init__.py
-      ├─ format_csv_datasets.py
-      └─ utils.py
+      ├─ functions
+      │  ├─ __init__.py
+      │  └─ test.py
+      └─ resources
+         ├─ __init__.py
+         ├─ names_mapping.py
+         └─ stopwords_en.py
 
 ```
 

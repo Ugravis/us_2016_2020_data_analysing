@@ -1299,4 +1299,8 @@ STOP_WORDS = [
   "zero",
   "zm",
   "zr",
+
+  "tonight",
+  "time",
+  "tomorrow"
 ]
