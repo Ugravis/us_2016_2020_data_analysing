@@ -4,6 +4,7 @@ from utils.resources.names_mapping import NAMES_MAPPING
 import re
 import html
 
+
 def clean_string(string):
   """
   Nettoyage des textes: suppression des sauts de ligne, remplacement de " par '.
@@ -22,6 +23,7 @@ def clean_string(string):
   clean_string = clean_string.replace('\n', ' ').replace('\r', '').strip()
   return clean_string
 
+
 def parse_iso8601(date_str):
   """
   Conversion d'une date ISO 8601 en datetime UTC.
@@ -35,6 +37,7 @@ def parse_iso8601(date_str):
 
   dt = datetime.strptime(date_str[:-6], "%Y-%m-%dT%H:%M:%S")
   return dt.replace(tzinfo=timezone.utc)
+
 
 def tokenize_text(text):
   """
@@ -57,3 +60,18 @@ def tokenize_text(text):
   words = [word for word in words if word not in STOP_WORDS]
 
   return words
+
+
+def tokenize_hashtags(text): 
+  """
+  Retourne les hashtags d'un texte + une forme normalisée (minuscules, plus de ponctuation).
+
+  Args:
+
+  Returns:
+  """
+
+  text = text.lower()
+  hashtags = re.findall(r'#\w+', text)
+
+  return hashtags
