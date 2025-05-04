@@ -1,8 +1,8 @@
 # 🇺🇸 2016 and 2020 US Presidential Elections - Data Analysing
 
-Analysis of **tweets from candidates** in the 2016 and 2020 US presidential elections. Original dataset from [Kaggle.com]([frfr](https://www.kaggle.com)). Make with **`Python`**, **`CSV`** files and **`JSON`** files. 
+Analysis of **tweets from candidates** in the 2016 and 2020 US presidential elections. Original dataset from [Kaggle.com](https://www.kaggle.com). Make with **`Python`**, **`CSV`** files and **`JSON`** files. 
 
-This work is part of a research project on the polarization of political discourse during presidential campaigns since the rise of social media in the 2010s ([Pennetier, U. 2025. *D'un espace public à un espace polarisé ; les réseaux sociaux comme arène politique*](https://github.com/Ugravis/us_2016_2020_data_analysing)). 
+**This work is part of a research project** on the polarization of political discourse during presidential campaigns since the rise of social media in the 2010s ([Pennetier, U. 2025. *D'un espace public à un espace polarisé ; les réseaux sociaux comme arène politique*](https://github.com/Ugravis/us_2016_2020_data_analysing)). 
 
 > [!NOTE]
 > **The reshearch is focused on:**  
