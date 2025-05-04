@@ -1302,5 +1302,11 @@ STOP_WORDS = [
 
   "tonight",
   "time",
-  "tomorrow"
+  "tomorrow",
+  "total",
+  "complete",
+  "endorsement",
+  "day",
+  "amendment",
+  "plan"
 ]

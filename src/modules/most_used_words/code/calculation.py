@@ -6,11 +6,7 @@ from collections import Counter, defaultdict
 
 def most_used_words_calculation():
   """
-  Retourne les mots les plus utilisés dans les tweets et ainsi qu'un retweet-index pour chacun des mots.
-  Traite tous les fichiers JSON dans le répertoire src/dataset/formated.
-
-  Returns:
-      dict: Les mots les plus fréquents de chaque fichier avec leur fréquence et index de retweet normalisé.
+  ###
   """
   
   input_dir = 'src/dataset/formated'

@@ -3,6 +3,7 @@ from modules.format_csv_datasets.format_csv_datasets import format_tweets_csv_to
 from modules.most_used_words.most_used_words import make_most_used_words
 from modules.most_used_hashtags.most_used_hashtags import make_most_used_hashtags
 from modules.tweet_quantity_evo.tweet_quantity_evo import make_tweet_quantity_evo
+from modules.tweet_length.tweet_length import make_tweet_length
 
 with open("src/config/format_config.json", encoding="utf-8") as f:
   formatMetas = json.load(f)
@@ -18,3 +19,6 @@ make_most_used_hashtags()
 
 # Tweet quantity evolution
 make_tweet_quantity_evo()
+
+# Tweet length
+make_tweet_length()

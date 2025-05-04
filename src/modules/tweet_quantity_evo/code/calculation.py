@@ -6,8 +6,9 @@ from collections import defaultdict
 
 def tweet_quantity_evo_calculation():
   input_dir = "src/dataset/formated"
-  output_path = "src/modules/tweet_quantity_evo/results/tweet_quantity_evolution.json"
-  result = { }
+  output_base = "src/modules/tweet_quantity_evo/results"
+  result_2016 = {}
+  result_2020 = {}
 
   for file_name in os.listdir(input_dir):
     if not file_name.endswith('.json'):
@@ -48,9 +49,7 @@ def tweet_quantity_evo_calculation():
     else:
       start = end = None
 
-  # Ecriture du resultat
-
-    result[candidate] = {
+    data = {
       "time_amplitude": {
         "start": start,
         "end": end
@@ -61,7 +60,19 @@ def tweet_quantity_evo_calculation():
       }
     }
 
-  with open(output_path, 'w', encoding='utf-8') as out_file:
-    json.dump(result, out_file, indent=2, ensure_ascii=False)
+    if "2016" in candidate:
+      result_2016[candidate] = data
+    elif "2020" in candidate:
+      result_2020[candidate] = data
 
-  print(f"💾 [green]{output_path}[/green]")
+  # Écriture des résultats dans deux fichiers distincts
+  output_2016 = os.path.join(output_base, "tweet_quantity_evolution_2016.json")
+  output_2020 = os.path.join(output_base, "tweet_quantity_evolution_2020.json")
+
+  with open(output_2016, 'w', encoding='utf-8') as f_2016:
+    json.dump(result_2016, f_2016, indent=2, ensure_ascii=False)
+    print(f"💾 [green]{output_2016}[/green]")
+
+  with open(output_2020, 'w', encoding='utf-8') as f_2020:
+    json.dump(result_2020, f_2020, indent=2, ensure_ascii=False)
+    print(f"💾 [green]{output_2020}[/green]")
